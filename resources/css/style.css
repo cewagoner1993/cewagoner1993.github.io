@@ -5,6 +5,7 @@
 *   {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -94,6 +95,7 @@ header  {
 }   
 
 .header-background{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.5))), url(cash%20register.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(cash%20register.jpg);
     background-size: cover;
     height: 60vh;
@@ -144,7 +146,8 @@ li a:visited{
 li a:hover{
     color: #6a6a6a;
     border-bottom: 3px solid #141847;
-    transition: border-bottom 0.4s,
+    -webkit-transition: border-bottom 0.4s;
+    transition: border-bottom 0.4s
 }
 
 .header-buttons a{
@@ -166,31 +169,41 @@ li a:hover{
     background-color: rgba(234, 234, 234, 0.89);
 }
 
-.section-about-us img{
-    width: 70%;
-    margin: 155px 30px 100px 100px;
+.about-us-box{text-align: center; margin-left: 0;}
+
+.about-us-box img{
+    height: 50%;
+    width: auto;
     border-radius: 5px;
+    margin-right: 20%;
+    margin-top: 80px;
 }
 
 .section-about-us img:hover{
+    -webkit-transform: scale(1.05);
     transform: scale(1.05);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 
 .about-us-content{
     display: block;
-    margin: 10px 200px 0px 0;
+    margin-right: 20%;
+    margin-left: 10px;
+    margin-top: 20px;
     font-size: 105%;
     color: #000;
 }
 
 .about-us-box:first-child{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .about-us-box:last-child{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 
@@ -199,6 +212,7 @@ li a:hover{
 /*--------------------------------------------------*/
 
 .section-reservation {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))), url(single%20chair.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(single%20chair.jpg);
     background-attachment: fixed;
     height: 100vh;
@@ -241,8 +255,12 @@ li a:hover{
 }
 
 .barber-box img:hover{
+    -webkit-transform: scale(1.10);
     transform: scale(1.10);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 
@@ -263,11 +281,12 @@ li a:hover{
 }
 
 /*--------------------------------------------------*/
-/*RESERVATIONS/*
+/*GALLERY/*
 /*--------------------------------------------------*/
 
 .section-gallery{
     background-color: rgba(234, 234, 234, 0.89);
+    padding-bottom: 30px;
 }
 
 .section-one-images,
@@ -288,8 +307,12 @@ li a:hover{
 .section-one-images img:hover,
 .section-three-images img:hover{
     opacity: 1;
+    -webkit-transform: scale(1.15);
     transform: scale(1.15);
+    -webkit-transition: opacity, -webkit-transform 0.4s;
+    transition: opacity, -webkit-transform 0.4s;
     transition: opacity, transform 0.4s;
+    transition: opacity, transform 0.4s, -webkit-transform 0.4s;
 }
 
 .section-one-images:first-child,
@@ -300,6 +323,8 @@ li a:hover{
 .section-two-images{
     background-color: #000;
     height: 40%;
+    width: 23%;
+    margin-left: 2%;
 }
 
 .section-two-images img{
@@ -311,7 +336,82 @@ li a:hover{
 
 .section-two-images img:hover{
     opacity: 1;
+    -webkit-transform: scale(1.15);
     transform: scale(1.15);
+    -webkit-transition: opacity, -webkit-transform 0.4s;
+    transition: opacity, -webkit-transform 0.4s;
     transition: opacity, transform 0.4s;
+    transition: opacity, transform 0.4s, -webkit-transform 0.4s;
 }
 
+/*--------------------------------------------------*/
+/*FOOTER/*
+/*--------------------------------------------------*/
+
+footer{
+    padding-top: 50px;
+    height: 230px;
+    width: 100%;
+    background-color: #484848;
+}
+
+.footer-info{
+    margin-left: 160px;
+    color: #d4d4d4;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.social-links{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.social-links ul{
+    list-style: none;
+}
+
+.social-links li{
+    margin-bottom: 2px;
+}
+
+.social-links a:link,
+.social-links a:visited{
+    color: #000;
+    border: 0;
+    text-transform: lowercase;
+}
+
+.social-links a:hover{
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 80%;
+}
+
+.footer-box img{
+    height: 200px;
+    width: auto;
+    margin-top: -48px;
+    margin-left: 80px;
+    border-radius: 3px;
+    -webkit-box-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #000;
+    opacity: 0.8;
+}
+
+.footer-box img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    
+}
