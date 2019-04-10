@@ -1,0 +1,158 @@
+/* big tablet smaller than row: from 1024px to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .header-buttons{margin-top: 30px;}
+    .header-buttons a{
+        font-size: 70%;
+        padding: 4px 12px;
+    }
+    
+    .about-us-box img{margin-top: 100px;}
+    
+    .footer-info{
+        font-size: 90%;
+    }
+    
+    .social-links{text-align: center;}
+    
+    .copyright{margin-top: 5px;}
+}
+
+/*small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    header{
+        height: 90vh;
+        margin-top: 20px;
+    }
+    .nav-main{font-size: 70%;}
+    .shop-name-header h1{
+        margin-right: 50px;
+        font-size: 105%;
+    }
+    
+    .shop-addy{margin-right: 55px;}
+    
+    .header-buttons .btn-full{
+        padding: 6px 20px;
+    }
+    
+    .about-us-box{width: 100%;}
+    .about-us-box img{margin-top: 20px;}
+    .about-us-content{text-align: center;}
+    
+
+    .barber-box .btn-full{
+        padding: 4px 20px;
+        font-size: 80%;
+        margin-top: 40px;
+    }
+    
+    .footer-info{
+        font-size: 70%;
+        width: 100%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 25px;
+    }
+    
+    .social-links{margin-left: 35%;}
+    .copyright{margin-top: 10px;}
+}
+
+/* small phones and tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    header{height: 70vh;}
+    .nav-main{font-size: 40%;}
+    .header-background{height: 40vh;}
+    .shop-name-header h2{font-size: 80%;}
+    
+    .header-buttons .btn-full{
+        padding: 4px 12px;
+        margin-left: 20px;
+    }
+    
+    h2{font-size: 130%;}
+    .about-us-content{font-size: 80%;}
+    
+    .section-reservation{height: 80vh;}
+    .section-reservation h3{
+        font-size: 70%; 
+        margin-left: 20px; 
+        margin-top: 20px;}
+    
+    .barber-box{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .barber-box:last-child{margin-bottom: 50px;}
+    
+    .footer-info{
+        font-size: 60%;
+        margin-left: 0;
+    }
+    .footer-pic img{height: 100px;}
+    .footer-pic{
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    
+    .social-links{
+        font-size: 80%;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    
+    .copyright{margin-top: 20px;}
+}
+
+/* small phones: from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {
+    .nav-main{
+        font-size: 80%;
+    }
+    
+    .nav-main li{padding-bottom: 5px;}
+    .shop-name-header h1{
+        font-size: 130%; 
+        width: 100%; 
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .shop-name-header h2{
+        font-size: 110%;
+        margin-left: 30px;
+    }
+    
+    .header-buttons{
+        margin-top: 15px;
+    }
+    
+    .header-buttons a{margin-bottom: 2px;}
+    
+    .about-us-box img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .about-us-content{
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 100%;
+    }
+    
+    .footer-info{
+        margin-top: -30;
+    }
+    
+    .footer-pic{text-align: center; margin: 10px;}
+    
+    .footer-pic img{margin: 0;}
+    .social-links{margin-top: 0;}
+    .copyright{margin-top: 5px;}
+}
+
