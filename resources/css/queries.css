@@ -64,7 +64,10 @@
 
 @media only screen and (max-width: 767px) {
     header{height: 70vh;}
-    .nav-main{font-size: 40%;}
+    .nav-main li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     .header-background{height: 40vh;}
     .shop-name-header h2{font-size: 80%;}
     
@@ -89,6 +92,13 @@
     
     .barber-box:last-child{margin-bottom: 50px;}
     
+     .section-one-images,
+    .section-two-images,
+    .section-three-images{
+        width: 100%;
+    
+    }
+    
     .footer-info{
         font-size: 60%;
         margin-left: 0;
@@ -108,7 +118,7 @@
     .copyright{margin-top: 20px;}
 }
 
-/* small phones: from 0 to 480px*/
+/* small phones: from 479 to 480px*/
 
 @media only screen and (max-width: 480px) {
     .nav-main{
@@ -134,6 +144,7 @@
     
     .header-buttons a{margin-bottom: 2px;}
     
+    
     .about-us-box img{
         width: 100%;
         height: auto;
@@ -145,6 +156,11 @@
         font-size: 100%;
     }
     
+     .section-one-images,
+    .section-two-images,
+    .section-three-images{
+        width: 100%;}
+
     .footer-info{
         margin-top: -30;
     }
@@ -154,5 +170,119 @@
     .footer-pic img{margin: 0;}
     .social-links{margin-top: 0;}
     .copyright{margin-top: 5px;}
+}
+
+/* small phones: from 407 to 479px*/
+@media only screen and (max-width: 479px) {
+    .nav-main li{
+        margin-left: 2px;
+        margin-right: 0;
+    }
+    .shop-name-header h2{
+        font-size: 90%;
+    }
+    
+    .header-buttons{
+        margin-top: 65px;
+        text-align: center;
+    }
+    
+    .section-one-images,
+    .section-two-images,
+    .section-three-images{
+        width: 100%;
+}
+
+/* small phones: from 321 to 406px*/
+@media only screen and (max-width: 406px) {
+    .nav-main li{
+        margin-left: 2px;
+        margin-right: 0;
+        font-size: 85%;
+    }
+    
+    .shop-name-header h1{
+        margin: 0;
+        font-size: 80%;
+    }
+    
+    .shop-name-header h2{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        font-size: 80%;
+    }
+    
+    .header-buttons{
+        margin-top: 65px;
+        text-align: center;
+    }
+    
+    .section-one-images,
+    .section-two-images,
+    .section-three-images{
+        width: 100%;
+}
+
+/* small phones: from 251 to 320px*/
+@media only screen and (max-width: 320px) {
+    .nav-main li{
+        margin-left: 2px;
+        margin-right: 0;
+        font-size: 60%;
+    }
+    
+    .shop-name-header h1{
+        margin: 0;
+        font-size: 70%;
+    }
+    
+    .shop-name-header h2{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 65%;
+    }
+    
+    .header-buttons{
+        margin-top: 55px;
+        text-align: center;
+    }
+    
+    .section-one-images,
+    .section-two-images,
+    .section-three-images{
+        width: 100%;
+    }
+}
+/* small phones: from 0 to 250px*/
+@media only screen and (max-width: 250px) {
+    
+    .nav-main li{
+        font-size: 60%;
+        margin-left: 2px; 
+        margin-right: 0;
+    }
+    
+    .shop-name-header h1{
+        font-size: 70%;
+        margin: 0;
+    }
+    
+    .shop-name-header h2{
+        font-size: 60%;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .header-buttons{
+        margin-top: 50px;
+    }
+    
+    .section-one-images,
+    .section-two-images,
+    .section-three-images{
+        width: 100%;
+    }
 }
 

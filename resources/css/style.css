@@ -285,16 +285,14 @@ li a:hover{
 /*--------------------------------------------------*/
 
 .section-gallery{
-    background-color: rgba(234, 234, 234, 0.89);
-    padding-bottom: 30px;
+    background-color: rgba(65, 65, 65, 0.89);
+    padding-bottom: 0px;
 }
 
 .section-one-images,
 .section-three-images{
     background-color: #000;
-    height: 40%;
-    width: 30%;
-    margin-left:  2%;
+    height: 40%;    
 }
 
 .section-one-images img,
@@ -317,16 +315,10 @@ li a:hover{
     transition: opacity, transform 0.4s, -webkit-transform 0.4s;
 }
 
-.section-one-images:first-child,
-.section-three-images:first-child{
-    margin-left: 4%;
-}
 
 .section-two-images{
     background-color: #000;
     height: 40%;
-    width: 23%;
-    margin-left: 2%;
 }
 
 .section-two-images img{
@@ -356,12 +348,12 @@ footer{
     padding-top: 50px;
     height: 230px;
     width: 100%;
-    background-color: #484848;
+    background-color: rgba(234, 234, 234, 0.89);
 }
 
 .footer-info{
     margin-left: 160px;
-    color: #d4d4d4;
+    color: #000;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -407,7 +399,7 @@ footer{
     border-radius: 3px;
     -webkit-box-shadow: 2px 2px 2px #000;
     box-shadow: 2px 2px 2px #000;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .footer-box img:hover{
