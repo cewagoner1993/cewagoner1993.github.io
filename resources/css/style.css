@@ -1,416 +1,121 @@
-/*--------------------------------------------------*/
-/*BASIC SETUP/*
-/*--------------------------------------------------*/
 
-*   {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
+/* Setting up the page */
+
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin 0;
+        
 }
 
-html    {
-    background-color: #fff;
-    color: #6a6a6a;
-    font-family: 'Source Sans Pro', san-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-    -o-text-overflow: hidden;
-       text-overflow: hidden;
-}
-
-.clearfix   {zoom: 1}
-.clearfix   {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-
-/*--------------------------------------------------*/
-/*REUSABLE COMPONENTS/*
-/*--------------------------------------------------*/
-
-/*---------HEADINGS------*/
-
-
-h1  {
-    color: #000;
-    letter-spacing: 3px;
-    font-weight: 400;
-    font-size: 220%;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-h2  {
-    color: #000;
-    font-weight: 300;
-    font-size: 180%;
-    text-align: center;
-    width: 100%;
-    margin: 10px auto 5px auto;
-}
-
-h3{
-    color: #000;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 85%;
-}
-
-/*---------BUTTONS------*/
-
-.btn-full:link,
-.btn-full:visited{
-    display:inline-block;
-    padding: 12px 50px;
-    border-radius: 15px;
-    background-color: rgba(20, 24, 71, 1);
-    color: #fff;
-    text-decoration: none; 
-}
-
-.btn-full:link,
-.btn-full:visited{
-    border: 1px solid #000;
-    background-color: rgba(20, 24, 71, 1);
-}
-
-.btn-full:hover{
-    background-color: rgba(20, 24, 71, 0.6);
+html {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
 }
 
 
+/* HEADER */
 
-
-/*--------------------------------------------------*/
-/*HEADER/*
-/*--------------------------------------------------*/
-
-header  {
-    height: 100vh;
-    margin-top: 40px;
-    border-bottom: 25px solid #141847;
-}   
-
-.header-background{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.5))), url(cash%20register.jpg);
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(cash%20register.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(cash%20register.jpg);
+header {
+    height: 105vh;
+    margin-top: 0;
+    background-image: url(grid%20splatter.jpg);
     background-size: cover;
-    height: 60vh;
-    background-position: center;
-    background-attachment: fixed; 
-    margin-top: 10px;
 }
 
-.shop-name-header h1{
-    margin: 0 130px 10px 10;
-    font-size: 200%;
-    text-align: right;
-}
-
-.shop-name-header h2{
-    text-align: right;
-    padding-bottom: 0;
-    font-size: 100%;
-    border: 0;
-    width: 100%;
-    margin:0;
-}
-
-.shop-addy{
+#header-name {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+    font-size: 280%;
+    margin-top: 20px;
+    margin-right: 60px;
     float: right;
-    margin-right: 140px;
-}
-
-.nav-main{
-    list-style: none;
-}
-
-.nav-main li{
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 110%;
-}
-
-li a:link,
-li a:visited{
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-li a:hover{
-    color: #6a6a6a;
-    border-bottom: 3px solid #141847;
-    -webkit-transition: border-bottom 0.4s;
-    -o-transition: border-bottom 0.4s;
-    transition: border-bottom 0.4s
-}
-
-.header-buttons a{
-    margin-left: 75px;
-}
-
-
-/*--------------------------------------------------*/
-/*ABOUT US/*
-/*--------------------------------------------------*/
-
-.section-about-us{
-    background-color: rgba(234, 234, 234, 0.89);
-    
-}
-
-.about-us-box{
-    text-align: center;
-    margin-left: 0;
-    margin-bottom: 20px;
-}
-
-.about-us-box img{
-    height: 50%;
-    width: auto;
-    border-radius: 5px;
-    margin-top: 40px;
-}
-
-.section-about-us img:hover{
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-        transform: scale(1.05);
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: -webkit-transform 0.4s;
-    -o-transition: transform 0.4s;
-    transition: transform 0.4s;
-    transition: transform 0.4s, -webkit-transform 0.4s;
-}
-
-
-.about-us-content{
-    display: block;
-    text-align: left;
-    margin: 2px 0;
-    width: 95%;
-    font-size: 105%;
-    color: #000;
-}
-
-
-
-/*--------------------------------------------------*/
-/*RESERVATIONS/*
-/*--------------------------------------------------*/
-
-.section-reservation {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))), url(single%20chair.jpg);
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(single%20chair.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(single%20chair.jpg);
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    color: #fff;    
-}
-
-.section-reservation h2{
-    color: #fff;
-    border-bottom: none;
-}
-
-.section-reservation h3{
-    color: #fff;
-    margin-top: 60px;
-    margin-left: 100px;
-}
-
-/*--------------------------------------------------*/
-/*BARBERSS/*
-/*--------------------------------------------------*/
-
-
-.barber-box{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 70px;
-    padding-bottom: 50px;
-    background-color: rgba(234, 234, 234, 0.89);
-    border-radius: 5px;
-    border-bottom: 2px solid rgba(137, 137, 137, 0.8);
-}
-
-.barber-box img{
-    height: 105px;
-    width: 105px;
-    border-radius:50%;
-    padding: 10px 0;
-}
-
-.barber-box img:hover{
-    -webkit-transform: scale(1.10);
-    -ms-transform: scale(1.10);
-        transform: scale(1.10);
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: -webkit-transform 0.4s;
-    -o-transition: transform 0.4s;
-    transition: transform 0.4s;
-    transition: transform 0.4s, -webkit-transform 0.4s;
-}
-
-
-.barber-description li{
-    list-style: none;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.barber-description li span{
     text-transform: none;
-    text-decoration: none;
-}
-
-.barber-box a{
-    margin-top: 20px;
-}
-
-/*--------------------------------------------------*/
-/*GALLERY/*
-/*--------------------------------------------------*/
-
-.section-gallery{
-    background-color: rgba(65, 65, 65, 0.89);
-    padding-bottom: 0px;
-}
-
-.section-one-images,
-.section-three-images{
-    background-color: #000;
-    height: 40%;    
-}
-
-.section-one-images img,
-.section-three-images img{
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-}
-
-.section-one-images img:hover,
-.section-three-images img:hover{
-    opacity: 1;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-        transform: scale(1.15);
-    -webkit-transition: opacity, -webkit-transform 0.4s;
-    transition: opacity, -webkit-transform 0.4s;
-    -o-transition: opacity, transform 0.4s;
-    transition: opacity, transform 0.4s;
-    transition: opacity, transform 0.4s, -webkit-transform 0.4s;
-}
-
-
-.section-two-images{
-    background-color: #000;
-    height: 40%;
-}
-
-.section-two-images img{
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-}
-
-
-.section-two-images img:hover{
-    opacity: 1;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-        transform: scale(1.15);
-    -webkit-transition: opacity, -webkit-transform 0.4s;
-    transition: opacity, -webkit-transform 0.4s;
-    -o-transition: opacity, transform 0.4s;
-    transition: opacity, transform 0.4s;
-    transition: opacity, transform 0.4s, -webkit-transform 0.4s;
-}
-
-/*--------------------------------------------------*/
-/*FOOTER/*
-/*--------------------------------------------------*/
-
-footer{
-    padding-top: 50px;
-    height: 230px;
-    width: 100%;
-    background-color: rgba(234, 234, 234, 0.89);
-}
-
-.footer-info{
-    margin-left: 160px;
     color: #000;
-    font-weight: 400;
-    letter-spacing: 1px;
 }
 
-.social-links{
-    margin-left: 30px;
-    margin-top: 20px;
+#header-slogan {
+    font-weight: 200;
+    font-size: 150%;
+    margin-top: 50px;
+    margin-left: 60px;
+    text-align: left;
+    text-transform: none;
+    color: #000;
 }
 
-.social-links ul{
+.headshot img{
+    image-orientation: 90deg;
+    border-radius: 10%;
+    height: 300px; 
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+/* REUSEABLE COMPONENTS */
+
+h1{
+    text-align: center;
+    text-transform: lowercase;  
+    color: #ec23ec;
+}
+
+
+
+/*------------MAIN NAVIGATION -------------*/
+
+.main-nav {
     list-style: none;
+    text-decoration: none;
+    padding-top: 15px;
+    margin-left: 10px;
 }
 
-.social-links li{
-    margin-bottom: 2px;
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.social-links a:link,
-.social-links a:visited{
-    color: #000;
-    border: 0;
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #ce23ce;
     text-transform: lowercase;
 }
 
-.social-links a:hover{
-    color: #fff;
-    text-transform: uppercase;
-    -webkit-transition: color 0.2s;
-    -o-transition: color 0.2s;
-    transition: color 0.2s;
+.main-nav li a:hover,
+.main-nav li a:active{
+    padding-bottom: 3px;
+    border-bottom: solid 2px rgba(0, 245, 255, 0.76);
+    color: #000;
 }
 
-.copyright{
+
+/*SECTION WHAT*/
+
+.section-what{
+    height: 100vh;
+    background-color: rgba(255, 240, 240, 0.8);
+    padding-top: 30px;   
+}
+
+.content-what{
+    margin-top: 20px;
+}
+
+.content-what p{
+    margin-left: 30px;
+    width: 80%;   
+}
+.image-what{
     text-align: center;
-    font-size: 80%;
 }
 
-.footer-box img{
-    height: 200px;
-    width: auto;
-    margin-top: -48px;
-    margin-left: 80px;
-    border-radius: 3px;
-    -webkit-box-shadow: 2px 2px 2px #000;
-    box-shadow: 2px 2px 2px #000;
-    opacity: 0.9;
+.image-what img{
+    width: 80%;
+    margin-top: 60px;
 }
-
-.footer-box img:hover{
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    -webkit-transition: -webkit-transform 0.8s;
-    transition: -webkit-transform 0.8s;
-    -o-transition: transform 0.8s;
-    transition: transform 0.8s;
-    transition: transform 0.8s, -webkit-transform 0.8s;
     
-}
