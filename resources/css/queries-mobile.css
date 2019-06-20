@@ -1,0 +1,61 @@
+/* Media Quereies for iPhone X*/
+@media only screen and (max-width: 812px) {
+    *{
+        width: 150%;
+        font-size: 120%;
+    }
+    
+    h1{
+        margin-left: 340px;
+        font-size: 205%;
+    }
+    
+    /*HEADER SECTION*/
+    
+    header{
+        background-size: contain;
+        height: 175vh;
+    }
+    
+    .headshot {
+        margin-left: 10%;
+    }
+    
+    .headshot img{
+        width: 20%;
+        height: auto;
+    }
+    
+    #header-slogan{
+        font-size: 180%;
+        margin-left: 18px;
+    }
+    
+    #header-name{
+        margin-left: 102px;
+        font-size: 290%;
+    }
+    
+    /*WHO I DO SECTION*/
+    
+    .section-who{
+        background-size:contain;
+        background-attachment: scroll;
+        height: 335vh;
+    }
+    
+    .who-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .who-box p{
+        width: 70%;
+        margin-left: 65px;
+    }
+    
+    .image-who{
+        text-align: left;
+        margin-left: 20px;
+    }
+}
