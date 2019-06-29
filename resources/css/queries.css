@@ -1,0 +1,161 @@
+/* big tablet small than row: from 1024px to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {padding: 0 2%;}
+    
+}
+
+/* small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body {font-size: 18px;}
+    section {padding: 60px 0;}
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box,
+    .steps-box:last-child { margin-top: 10px; }
+    
+    .work-steps {margin-bottom: 40px;}
+    .work-steps:last-of-type {margin-bottom: 60px;}
+    
+    .app-screen {width: 50%;}
+    
+    .icon-small {width: 17%;}
+    .city-feature {font-size: 75%;}
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 25%;
+    }
+    
+    .plan-price {font-size: 250%;}
+    
+    .details li {font-size: 80%;}
+    
+    .contact-form {width: 80%;}
+    
+}
+
+
+/* small phones and tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        height: 50px;
+        width: auto;
+        margin-bottom: 0;    }
+    
+    header { height: 75vh;}
+    
+    .main-nav { 
+        margin-top: 40px;
+        width: 100%;
+        font-size: 80%;
+    }
+    
+    .main-nav li { margin-left: 20px;}
+    
+    .hero-text-box{
+        margin-top: -50px;
+        font-size: 80%;
+    }
+    
+    .features h2 { margin-top: -10px;}
+    
+    .box {
+        width: 100%;
+        text-align: center;   
+    }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        font-size: 120%;
+    }
+    
+    .works-step p {
+        font-size: 80%;
+        margin-left: 65px;
+    }
+    
+    .app-screen { 
+        width: 80%;
+        margin-top: -20px;
+    }
+    
+    .city-feature { 
+        text-align: left;
+        margin-bottom: 2px;
+    }
+    
+    .testimonial-box { width: 100%;}
+    
+    blockquote {font-size: 80%;}
+    
+    .section-plans-box {width: 100%;}
+    
+    .plan-box {
+        margin: 2px 0;
+    }
+    
+    .contact-form {width: 100%;}
+    
+    .footer-nav li {width: 100%;}
+    
+}
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    
+    header{ height: 60vh}
+    
+    .main-nav {
+        margin-top: 30px;
+        margin-bottom: 0;
+        width: 100%;
+        font-size: 50%;
+    }
+    
+    .hero-text-box {
+        font-size: 50%;
+        margin-top: -100px;
+        text-align: center;
+    }
+    
+    
+    .long-copy {
+        font-size: 90%;
+        text-align: center;
+    }
+    
+    h3 {font-size: 80%:}
+    
+    .box p {font-size: 80%;}
+    
+    .app-screen{
+        width: 60%;
+        margin-right: 15%;
+    }
+    
+    .btn-app img{
+        height: 25px;
+        width: auto;
+    }
+    
+    .plan-box {margin-bottom: 5px;}
+    
+    input {margin-bottom: 20px;}
+    
+    .footer-nav {margin-bottom: 10px;}
+    
+    
+}
