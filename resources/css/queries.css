@@ -75,14 +75,17 @@
 
     header{
         width: 650px;
+        zoom: 2.5;
     }
     
     section{
         width: 650px;
+        zoom: 2.5;
     }
     
     .main-nav{
         font-size: 80%;
+        margin-bottom: 0;
     }
     
     .about-content-one{
