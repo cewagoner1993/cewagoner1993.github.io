@@ -72,9 +72,13 @@
 
 @media only screen and (max-width: 480px) {
     
+    html{
+        font-size: 250%;
+    }
 
     header{
         width: 650px;
+        height: 120vh;
         zoom: 2.5;
     }
     
@@ -109,11 +113,20 @@
     
     .product-item{
         margin-left: 150px;
+        height: auto;
     }
     
     #other,
     #custom{
         margin-left: 80px;
+        height: 700px;
+        border: 1px solid #000;
     }
+    
+    .other-content{
+        border: none;
+        margin-left: 20px;
+    }
+    
 } 
    
