@@ -76,6 +76,11 @@
         font-size: 250%;
         height: auto;
     }
+    
+    h2,
+    h3{
+        font-size: 150%;
+    }
 
     header{
         width: 650px;
@@ -93,7 +98,7 @@
     
     .main-nav{
         width: 650px;
-        font-size: 80%;
+        font-size: 150%;
         margin-bottom: 0;
         padding-bottom: 0;
     }
