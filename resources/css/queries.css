@@ -88,8 +88,15 @@
     }
     
     .main-nav{
+        width: 650px;
         font-size: 80%;
         margin-bottom: 0;
+    }
+    
+    .hero-text-box{
+        margin-top: 0px;
+        padding-top: 250px;
+        padding-bottom: 250px;
     }
     
     .about-content-one{
