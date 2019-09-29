@@ -74,6 +74,7 @@
     
     html{
         font-size: 250%;
+        height: auto;
     }
 
     header{
@@ -81,7 +82,7 @@
         height: auto;
         zoom: 2.5;
         margin-top: 0;
-        padding-top: 0;
+        padding-top: 200px;
         top: 0;
     }
     
