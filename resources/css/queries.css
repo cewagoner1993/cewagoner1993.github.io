@@ -80,6 +80,9 @@
         width: 650px;
         height: auto;
         zoom: 2.5;
+        margin-top: 0;
+        padding-top: 0;
+        top: 0;
     }
     
     section{
@@ -91,6 +94,7 @@
         width: 650px;
         font-size: 80%;
         margin-bottom: 0;
+        padding-bottom: 0;
     }
     
     .hero-text-box{
