@@ -1,97 +1,119 @@
-@media only screen and (max-width: 1084px) {
-    h2,
-    h3{
-        margin-left: 50px;
+@media only screen and (max-width: 1150px) {
+    header{
+        width: 1200px;
     }
     
-    .about-us{
-        height: 170vh;
+    section{
+        width: 1200px;
     }
-   
+    
     .about-content-one{
-        margin-left: 100px;
+        display: block;
     }
     
     .about-content-two{
-        margin-left: 400px;
-        margin-top: 20px;
-        margin-bottom: 50px;
+        display: block;
+        margin-left: 200px;
     }
     
     .content{
-        margin-top: 2px;
+        margin-top: 20px;
     }
+}
+
+@media only screen and (max-width: 1023px) {
     
-    .products{
-        height: 680vh;
-    }
-    
-    #other{
-        margin-left: 50px;
-        width: 450px;
+    .about-content-two{
+        margin-left: 520px;
+        margin-top: -172px;        
     }
     
     #custom{
-        width: 450px;   
+        margin-right: -100px;
     }
 }
 
-
-/*------- MEDIA MAX WIDTH 1016PX ----------*/
-
-@media only screen and (max-width: 1016px) {
-    
-    #other{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-}
-
-
-
-/*------- MEDIA MAX WIDTH 966PX ----------*/
-
-
-@media only screen and (max-width: 966px){
-    #custom{
-        margin-left: 20px;;
-    }
-}
-
-/*------- MEDIA MAX WIDTH 936PX ----------*/
-@media only screen and (max-width: 936px){
+@media only screen and (max-width: 767px) {
     
     
-    .about-content-one,{
-        margin-left: 50%;
+    
+    .about-content-one{
+        float: none;
+        margin-left: 250px;
+        display: block;
     }
     
     .about-content-two{
-        margin-left: 100px;
+        float: none;
+        margin-top: 20px;
+        margin-left: 200px;
     }
     
-    .products{
-        height: 720vh;
+    .content{
+        margin-top: 20px;
+    }
+    
+    .about-content-three{
+        margin-left: 220px;
+    }
+    
+    #other{
+        display: block;
+        margin-left: 250px;
+    }
+    
+    #custom{
+        display: block;
+        float: none;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+    
+    html{
+        zoom: 2.5;
+    }
+
+    header{
+        width: 650px;
+    }
+    
+    section{
+        width: 650px;
+    }
+    
+    .main-nav{
+        font-size: 80%;
+    }
+    
+    .about-content-one{
+        margin-left: 50px;
+    }
+    
+    .about-content-two{
+        margin-left: 60px;
+        font-size: 80%;
+        width: 400px;
+        height: auto;
+    }
+    
+    .about-content-three{
+        margin-left: 35px;
+    }
+    
+    .order-content{
+        width: 400px;
     }
     
     .product-item{
-        margin-left: 10px;
+        margin-left: 150px;
     }
     
     #other,
     #custom{
-        margin-left: 150px;
+        margin-left: 80px;
     }
-        
-    }
-
-@media only screen and (max-width: 696px){
-    #home{
-        margin-left: 10px;
-    }
-    
-    .main-nav li{
-        margin: 5px;;
-    }
-}
+} 
+   

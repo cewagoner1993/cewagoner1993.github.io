@@ -3,9 +3,15 @@
         width: 1140px;
     }
     
+    
     section{
         width: 1140px;
     }
+    
+    .about-us{
+        font-size: 300%;
+    }
+    
     
     .products{
         height: 550vh;
