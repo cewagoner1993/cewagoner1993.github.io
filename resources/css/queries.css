@@ -1,161 +1,97 @@
-/* big tablet small than row: from 1024px to 1200px */
-
-@media only screen and (max-width: 1200px) {
-    .hero-text-box{
-        width: 100%;
-        padding: 0 2%;
+@media only screen and (max-width: 1084px) {
+    h2,
+    h3{
+        margin-left: 50px;
     }
     
-    .row {padding: 0 2%;}
-    
-}
-
-/* small tablet to big tablet: from 768px to 1023px */
-
-@media only screen and (max-width: 1023px) {
-    body {font-size: 18px;}
-    section {padding: 60px 0;}
-    .long-copy{
-        width: 80%;
-        margin-left: 10%;
+    .about-us{
+        height: 170vh;
+    }
+   
+    .about-content-one{
+        margin-left: 100px;
     }
     
-    .steps-box,
-    .steps-box:last-child { margin-top: 10px; }
-    
-    .work-steps {margin-bottom: 40px;}
-    .work-steps:last-of-type {margin-bottom: 60px;}
-    
-    .app-screen {width: 50%;}
-    
-    .icon-small {width: 17%;}
-    .city-feature {font-size: 75%;}
-    
-    .plan-box {
-        width: 100%;
-        margin-left: 25%;
+    .about-content-two{
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
     
-    .plan-price {font-size: 250%;}
+    .content{
+        margin-top: 2px;
+    }
     
-    .details li {font-size: 80%;}
+    .products{
+        height: 680vh;
+    }
     
-    .contact-form {width: 80%;}
+    #other{
+        margin-left: 50px;
+        width: 450px;
+    }
     
+    #custom{
+        width: 450px;   
+    }
 }
 
 
-/* small phones and tablets: from 481px to 767px */
+/*------- MEDIA MAX WIDTH 1016PX ----------*/
 
-@media only screen and (max-width: 767px) {
-    .logo {
-        height: 50px;
-        width: auto;
-        margin-bottom: 0;    }
+@media only screen and (max-width: 1016px) {
     
-    header { height: 75vh;}
-    
-    .main-nav { 
-        margin-top: 40px;
-        width: 100%;
-        font-size: 80%;
+    #other{
+        margin-left: auto;
+        margin-right: auto;
     }
-    
-    .main-nav li { margin-left: 20px;}
-    
-    .hero-text-box{
-        margin-top: -50px;
-        font-size: 80%;
-    }
-    
-    .features h2 { margin-top: -10px;}
-    
-    .box {
-        width: 100%;
-        text-align: center;   
-    }
-    
-    .works-step div {
-        height: 40px;
-        width: 40px;
-        font-size: 120%;
-    }
-    
-    .works-step p {
-        font-size: 80%;
-        margin-left: 65px;
-    }
-    
-    .app-screen { 
-        width: 80%;
-        margin-top: -20px;
-    }
-    
-    .city-feature { 
-        text-align: left;
-        margin-bottom: 2px;
-    }
-    
-    .testimonial-box { width: 100%;}
-    
-    blockquote {font-size: 80%;}
-    
-    .section-plans-box {width: 100%;}
-    
-    .plan-box {
-        margin: 2px 0;
-    }
-    
-    .contact-form {width: 100%;}
-    
-    .footer-nav li {width: 100%;}
     
 }
 
-/* Small phones: from 0 to 480px */
 
-@media only screen and (max-width: 480px) {
+
+/*------- MEDIA MAX WIDTH 966PX ----------*/
+
+
+@media only screen and (max-width: 966px){
+    #custom{
+        margin-left: 20px;;
+    }
+}
+
+/*------- MEDIA MAX WIDTH 936PX ----------*/
+@media only screen and (max-width: 936px){
     
-    header{ height: 60vh}
     
-    .main-nav {
-        margin-top: 30px;
-        margin-bottom: 0;
-        width: 100%;
-        font-size: 50%;
+    .about-content-one,{
+        margin-left: 50%;
     }
     
-    .hero-text-box {
-        font-size: 50%;
-        margin-top: -100px;
-        text-align: center;
+    .about-content-two{
+        margin-left: 100px;
     }
     
-    
-    .long-copy {
-        font-size: 90%;
-        text-align: center;
+    .products{
+        height: 720vh;
     }
     
-    h3 {font-size: 80%:}
-    
-    .box p {font-size: 80%;}
-    
-    .app-screen{
-        width: 60%;
-        margin-right: 15%;
+    .product-item{
+        margin-left: 10px;
     }
     
-    .btn-app img{
-        height: 25px;
-        width: auto;
+    #other,
+    #custom{
+        margin-left: 150px;
+    }
+        
+    }
+
+@media only screen and (max-width: 696px){
+    #home{
+        margin-left: 10px;
     }
     
-    .plan-box {margin-bottom: 5px;}
-    
-    input {margin-bottom: 20px;}
-    
-    .footer-nav {margin-bottom: 10px;}
-    
-    
+    .main-nav li{
+        margin: 5px;;
+    }
 }
