@@ -72,9 +72,6 @@
 
 @media only screen and (max-width: 480px) {
     
-    html{
-        zoom: 3.0;
-    }
 
     header{
         width: 650px;
