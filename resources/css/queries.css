@@ -73,7 +73,7 @@
 @media only screen and (max-width: 480px) {
     
     html{
-        zoom: 4.0;
+        zoom: 3.0;
     }
 
     header{

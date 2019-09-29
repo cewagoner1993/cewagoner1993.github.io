@@ -169,6 +169,10 @@ header{
 }
 
 /*-----MAIN NAV-----*/
+
+nav{
+    margin-bottom: 0;
+}
 .main-nav{
     font-family: "Amatic SC", cursive;
     position: fixed; 
