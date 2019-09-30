@@ -98,7 +98,7 @@
     
     .main-nav{
         width: 650px;
-        font-size: 90%;
+        font-size: 105%;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -110,10 +110,10 @@
         background: rgba(0, 0, 0, 0);
     }
     
-    .ghost-btn,
-    .full-btn{
-        padding: 50px;
-        margin-top: 150px;
+   .ghost-btn,
+    .full-btn {
+        width: 700px;
+        height: 300px;
     }
     
     .about-content-one{
